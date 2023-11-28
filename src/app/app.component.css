@@ -52,13 +52,24 @@ header{
     z-index: 1000;
     box-shadow: var(--box-shadow);
 }
-header .logo{
-    color: var(--black);
-    font-size:2.5rem;
-    font-weight:bolder;
+.logo img {
+    max-width: 100px; /* Change this value to your preferred maximum width */
+    max-height: 60px; /* Change this value to your preferred maximum height */
 }
-header .logo i{
-    color: orangered;
+
+.background-container {
+    background-image: url('../assets/Images/banner/grocery-delivery.png');
+    background-size: cover;
+    background-position: center;
+    /* Additional styles for layout or sizing */
+    min-height: 100vh; /* Adjust this to your preferred height */
+    padding: 20px; /* Adjust this to create spacing around the content */
+}
+
+/* Style for logo image */
+.logo img {
+    max-width: 100px; /* Change this value to your preferred maximum width */
+    max-height: 60px; /* Change this value to your preferred maximum height */
 }
 header .navbar a{
     font-size: 1.7rem;
